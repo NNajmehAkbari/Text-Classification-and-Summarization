@@ -6,6 +6,7 @@ And the second is how much text cleaning affects classification.
 
 I used a database of news prepared by the BBC from the kaggle website.
 
+
 First I did pre-processing.
 
 Then I used four different functions in the Sumy package to summarize the news. (all functions create an extractive summary)
