@@ -7,11 +7,11 @@ And the second is how much text cleaning affects classification.
 I used a database of news prepared by the BBC from the kaggle website.
 
 
-First I did pre-processing.
+Step 1:==> Pre-processing.
 
-Then I used four different functions in the Sumy package to summarize the news. (all functions create an extractive summary)
+Step 2:==> I used four different functions in the Sumy package to summarize the news. (all functions create an extractive summary)
 
-Then I checked the results using Rouge() and selected the best summary.
+Step 3:==> I checked the results using Rouge() and selected the best summary.
 
-In the end, I created the neural network model for main news, news summary and clean news.
+Step 4:==> I created the neural network model for main news, news summary and clean news.
 
