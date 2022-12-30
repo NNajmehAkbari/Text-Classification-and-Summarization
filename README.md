@@ -1,17 +1,15 @@
 # Classification news using summarized instead of original news.
-In this project I worked on two different topics. 
 
-The first is what happens if we use summary text instead of the main text for classification? 
-And the second is how much text cleaning affects classification.
+Project idea:	1. Using news summaries for classification instead of original news.
+		          2. Impact of text cleaning on classification
 
-I used a database of news prepared by the BBC from the kaggle website.
+====================================================================================================== 
 
+Database:	2224 news and news summaries prepared by the BBC from the kaggle website
 
-Step 1:==> Pre-processing.
+====================================================================================================== 
 
-Step 2:==> I used four different functions in the Sumy package to summarize the news. (all functions create an extractive summary)
-
-Step 3:==> I checked the results using Rouge() and selected the best summary.
-
-Step 4:==> I created the neural network model for main news, news summary and clean news.
-
+Process:	Step 1:==> pre-processing.
+		      Step 2:==> Summarizing news using four different functions in the Sumy library.
+		      Step 3:==> Check the results using Rouge() and select the best summary
+	      	Step 4:==> Create neural network model for original news, best news summary and clean news.
