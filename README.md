@@ -7,6 +7,7 @@ Project idea:
 		2. Impact of text cleaning on classification
 
 =========================================================================
+
 Database:	
 
 		2224 news and news summaries prepared by the BBC from the kaggle website
