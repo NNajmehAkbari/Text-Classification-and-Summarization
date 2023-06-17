@@ -1,6 +1,6 @@
-# Classification of news using summarized news instead of original news..
+# Classification of news using summarized news instead of original news.
 
-# Project idea:
+### Project idea:
 
 1. Evaluating the use of news summaries for classification instead of relying on the original news articles.
 
