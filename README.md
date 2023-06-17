@@ -1,25 +1,22 @@
-# Classification news using summarized instead of original news.
+# Classification of news using summarized news instead of original news..
 
-Project idea:	
+Project idea:
 
-		1. Using news summaries for classification instead of original news.
+1. Evaluating the use of news summaries for classification instead of relying on the original news articles.
 
-		2. Impact of text cleaning on classification
-
+2. Investigating the impact of text cleaning techniques on classification performance.
 =========================================================================
 
-Database:	
+Dataset:
 
-		2224 news and news summaries prepared by the BBC from the kaggle website
+# A dataset consisting of 2224 news articles and corresponding news summaries obtained from the BBC dataset on Kaggle.
 
-========================================================================== 
+Process:
 
-Process:	
+Step 1: Perform pre-processing steps on the dataset.
 
-		Step 1:==> pre-processing.
+Step 2: Generate news summaries using four different functions available in the Sumy library.
 
-		Step 2:==> Summarizing news using four different functions in the Sumy library.
-		
-		Step 3:==> Check the results using Rouge() and select the best summary.
-		
-	      	Step 4:==> Create neural network model for original news, best news summary and clean news.
+Step 3: Evaluate the quality of the generated summaries using metrics such as Rouge and select the best-performing summary.
+
+Step 4: Develop a neural network model using the original news articles, the selected best summary, and the pre-processed clean news articles.
