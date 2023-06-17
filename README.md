@@ -7,11 +7,11 @@
 2. Investigating the impact of text cleaning techniques on classification performance.
 =========================================================================
 
-# Dataset:
+### Dataset:
 
 A dataset consisting of 2224 news articles and corresponding news summaries obtained from the BBC dataset on Kaggle.
 
-# Process:
+### Process:
 
 Step 1: Perform pre-processing steps on the dataset.
 
