@@ -1,17 +1,17 @@
 # Classification of news using summarized news instead of original news..
 
-Project idea:
+# Project idea:
 
 1. Evaluating the use of news summaries for classification instead of relying on the original news articles.
 
 2. Investigating the impact of text cleaning techniques on classification performance.
 =========================================================================
 
-Dataset:
+# Dataset:
 
-# A dataset consisting of 2224 news articles and corresponding news summaries obtained from the BBC dataset on Kaggle.
+A dataset consisting of 2224 news articles and corresponding news summaries obtained from the BBC dataset on Kaggle.
 
-Process:
+# Process:
 
 Step 1: Perform pre-processing steps on the dataset.
 
